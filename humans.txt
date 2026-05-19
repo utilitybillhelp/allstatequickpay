@@ -1,0 +1,10 @@
+/* TEAM */
+
+Publisher: utility bill help
+Website: https://utilitybillhelp.github.io/Allstatequickpay/
+
+/* SITE */
+
+Type: Insurance Billing Support Guide
+Stack: HTML5, CSS3
+Hosted On: GitHub Pages
