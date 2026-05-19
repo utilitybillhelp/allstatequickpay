@@ -4,7 +4,7 @@ Informational guide related to Allstate quick pay, guest payment, Express Access
 
 ## Live URL
 
-https://utilitybillhelp.github.io/Allstatequickpay/
+https://utilitybillhelp.github.io/allstatequickpay/
 
 ## Main Topics Covered
 
