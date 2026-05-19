@@ -1,0 +1,5 @@
+Contact: mailto:support@utilitybillhelp.com
+Expires: 2027-05-20T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://utilitybillhelp.github.io/Allstatequickpay/.well-known/security.txt
+Policy: https://utilitybillhelp.github.io/Allstatequickpay/
