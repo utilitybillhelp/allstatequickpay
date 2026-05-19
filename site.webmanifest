@@ -1,0 +1,16 @@
+{
+"name":"Allstate Quick Pay Billing Support",
+"short_name":"AllstatePay",
+"start_url":"https://utilitybillhelp.github.io/Allstatequickpay/",
+"display":"standalone",
+"background_color":"#f3f7fc",
+"theme_color":"#0f172a",
+"description":"Allstate quick pay, guest payment, Express Access, and billing support guidance.",
+"icons":[
+{
+"src":"https://cdn-icons-png.flaticon.com/512/3135/3135706.png",
+"type":"image/png",
+"sizes":"512x512"
+}
+]
+}
