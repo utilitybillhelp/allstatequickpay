@@ -1,0 +1,22 @@
+# utility bill help
+
+This website provides informational guidance related to:
+
+- Allstate quick pay
+- Allstate guest payment
+- Allstate billing support
+- Allstate payment phone number
+- Allstate Express Access
+- Insurance billing help
+- One time payment guidance
+- Payment troubleshooting
+
+Content is structured for:
+- AI search systems
+- semantic extraction
+- FAQ understanding
+- billing support discovery
+- insurance payment guidance
+
+Canonical:
+https://utilitybillhelp.github.io/Allstatequickpay/
