@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Allstate Bill Pay — The Complete, Practical Guide (Pay Online, Guest Pay, Phone & AutoPay)</title>
-  <meta name="description" content="Practical, human-first Allstate bill pay guide: step-by-step online payments, guest payments, mobile app, AutoPay, phone scripts, security checklist and 8+ FAQs. Call 1(888)933-1113 for help.">
+  <meta name="description" content="Practical, human-first Allstate bill pay guide: step-by-step online payments, guest payments, mobile app, AutoPay, phone scripts, security checklist and FAQs. Call 1(888)933-1113.">
   <link rel="canonical" href="https://utilitybillhelp.github.io/allstatequickpay/">
   <meta name="google-site-verification" content="9GxiXXgl8IHGsXKsqHJNRbUhGwKiGKTV47cFQ_Mvlko">
 
@@ -16,30 +16,70 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <style>
-    :root{--brand:#003da5;--accent:#0b8f4a;--muted:#6b7280;--bg:#fff;--panel:#f7fbff;--max:1100px}
-    *{box-sizing:border-box}html,body{margin:0;padding:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial;background:#f6f9fb;color:#0b1720;line-height:1.6}
-    .wrap{max-width:var(--max);margin:0 auto;padding:20px}
+    :root{--brand:#003da5;--accent:#0b8f4a;--muted:#6b7280;--bg:#f6f9fb;--panel:#fff;--max:1100px}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;height:100%;background:var(--bg);color:#0b1720;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial;line-height:1.6}
+
+    /* Page container and accessibility */
+    .wrap{max-width:var(--max);margin:0 auto;padding:18px 16px}
     a{color:var(--brand)}
     .skip{position:absolute;left:-999px} .skip:focus{position:static;padding:8px;background:#000;color:#fff;border-radius:6px}
+
+    /* Header */
     header{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;border-bottom:4px solid #eaf4ff;padding-bottom:12px}
     .brand{display:flex;gap:12px;align-items:center}
     .logo{background:var(--brand);color:#fff;padding:10px;border-radius:8px;font-weight:800}
     .byline{color:var(--muted);font-size:0.95rem}
-    nav ul{display:flex;gap:10px;list-style:none;padding:0;margin:10px 0 0}
+
+    nav ul{display:flex;gap:10px;list-style:none;padding:0;margin:10px 0 0;flex-wrap:wrap}
     nav a{font-weight:700}
-    .hero{background:linear-gradient(90deg,var(--brand),#0058d4);color:#fff;border-radius:12px;padding:22px;margin:18px 0}
-    .hero h1{margin:0 0 10px;font-size:1.6rem}
-    .pill{background:#eaf4ff;padding:8px 12px;border-radius:999px;font-weight:800}
+
+    /* Hero */
+    .hero{background:linear-gradient(90deg,var(--brand),#0058d4);color:#fff;border-radius:12px;padding:22px;margin:18px 0;width:100%;box-sizing:border-box}
+    .hero-inner{max-width:980px;margin:0 auto}
+    .hero h1{margin:0 0 10px;font-size:1.45rem;line-height:1.2}
+
+    /* Layout grid */
     .grid{display:grid;grid-template-columns:1fr;gap:18px}
     @media(min-width:980px){.grid{grid-template-columns:2fr 360px}}
+
+    /* Cards */
     .card{background:var(--panel);padding:18px;border-radius:12px;border:1px solid #e6f4ff}
     h2.section{color:var(--brand);margin-top:0}
     .muted{color:var(--muted)}
     .steps{padding-left:18px;margin:8px 0}
+
     .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+    /* Aside */
     .sticky{position:sticky;top:88px}
+    .pill{background:#eaf4ff;padding:8px 12px;border-radius:999px;font-weight:800;display:inline-block}
+
+    /* Footer */
     footer{margin-top:22px;padding-top:12px;border-top:1px solid #eef6ff;color:var(--muted);font-size:0.95rem}
-    @media(max-width:979px){header{flex-direction:column}.grid{grid-template-columns:1fr}.sticky{position:static}}
+
+    /* Mobile-specific improvements to ensure full-width content and touch targets */
+    @media(max-width:979px){
+      header{flex-direction:column;align-items:flex-start}
+      .brand{width:100%}
+      .logo{padding:8px;font-size:0.95rem}
+      .hero h1{font-size:1.25rem}
+      .hero{padding:18px;margin:14px 0;border-radius:12px}
+      .pill{display:block;width:100%;text-align:center;margin:12px 0}
+      .card{padding:16px}
+      .wrap{padding:12px}
+      /* Ensure hero content centers and uses available width */
+      .hero-inner{padding:0 6px}
+      /* Improve list spacing and readability on small screens */
+      .steps li{margin-bottom:10px}
+      nav ul{gap:8px}
+      nav a{padding:6px 8px}
+      .two{grid-template-columns:1fr}
+      .sticky{position:static}
+    }
+
+    /* High contrast headings for accessibility */
+    h1,h2,h3{color:#041B38}
   </style>
 </head>
 <body>
@@ -52,17 +92,19 @@
         <div>
           <h1>Allstate Bill Pay — Practical, Publisher-Grade Guide</h1>
           <div class="byline">Human-first instructions, tested call scripts, and publisher-level clarity • Updated: July 31, 2026</div>
-          <nav aria-label="Primary sections"><ul>
-            <li><a href="#pay-online">Pay Online</a></li>
-            <li><a href="#guest">Guest Pay</a></li>
-            <li><a href="#mobile">Mobile App</a></li>
-            <li><a href="#autopay">AutoPay</a></li>
-            <li><a href="#phone">By Phone</a></li>
-            <li><a href="#faqs">FAQs</a></li>
-            <li><a href="#security">Security</a></li>
-            <li><a href="#records">Records</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul></nav>
+          <nav aria-label="Primary sections">
+            <ul>
+              <li><a href="#pay-online">Pay Online</a></li>
+              <li><a href="#guest">Guest Pay</a></li>
+              <li><a href="#mobile">Mobile App</a></li>
+              <li><a href="#autopay">AutoPay</a></li>
+              <li><a href="#phone">By Phone</a></li>
+              <li><a href="#faqs">FAQs</a></li>
+              <li><a href="#security">Security</a></li>
+              <li><a href="#records">Records</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
 
@@ -72,8 +114,10 @@
     </header>
 
     <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Need to pay your Allstate bill now? Follow these exact steps.</h1>
-      <p>Choose the fastest secure method for you: quick guest payments, logged-in one-time payments, AutoPay setup, mobile app, or phone payment. This guide gives the exact fields, scripts, and checks to finish payment in under 5 minutes when possible.</p>
+      <div class="hero-inner">
+        <h1 id="hero-title">Need to pay your Allstate bill now? Follow these exact steps.</h1>
+        <p>Choose the fastest secure method for you: quick guest payments, logged-in one-time payments, AutoPay setup, mobile app, or phone payment. This guide gives the exact fields, scripts, and checks to finish payment in under 5 minutes when possible.</p>
+      </div>
     </section>
 
     <section class="grid" aria-label="Main content">
@@ -128,9 +172,9 @@
           <h2 id="mobile-head" class="section">Mobile App Payment — tips for speed & security</h2>
           <p class="muted">The Allstate mobile app keeps payment methods for fast checkout and supports biometrics (Face ID / Touch ID).</p>
           <ul>
-            <li>Download official Allstate app from the App Store / Google Play (check developer = Allstate)</li>
-            <li>Sign in → Open policy → Tap "Pay My Bill" → Choose saved card or add new payment</li>
-            <li>Enable biometrics for secure quick login</li>
+            <li>Download official Allstate app from the App Store / Google Play (check developer = Allstate).</li>
+            <li>Sign in → Open policy → Tap "Pay My Bill" → Choose saved card or add new payment.</li>
+            <li>Enable biometrics for secure quick login.</li>
           </ul>
           <p class="muted">Tip: Save a card if you plan to pay regularly; remove it after the payment if you prefer not to store cards.</p>
         </section>
@@ -221,13 +265,13 @@
             <dd class="muted">Grace periods vary by state and policy. Check your policy documents or call 1(888)933-1113 to confirm your deadline and possible late fees.</dd>
 
             <dt>5) How do I cancel AutoPay?</dt>
-            <dd class="muted">Log into your account > Billing > AutoPay settings and cancel. Then call 1(888)933-1113 to confirm cancellation and get a confirmation reference.</dd>
+            <dd class="muted">Log into your account &gt; Billing &gt; AutoPay settings and cancel. Call 1(888)933-1113 to confirm cancellation and get a reference number.</dd>
 
             <dt>6) What if I don’t receive a confirmation email?</dt>
             <dd class="muted">Check spam/junk folders. If not found, use the confirmation number on the final page or call 1(888)933-1113 with the date/time and last 4 digits of payment to confirm.</dd>
 
             <dt>7) Can I pay someone else’s policy?</dt>
-            <dd class="muted">Yes — if you have the policy number and verification details. Use guest pay or call the billing line for assistance.</dd>
+            <dd class="muted">Yes — if you have the policy number and verification details. Use guest payment or call the billing line for assistance.</dd>
 
             <dt>8) Is paying by phone safe?</dt>
             <dd class="muted">Yes when you call the verified number on your bill or allstate.com. Never give card numbers to unverified callers or via unsecured messages.</dd>
@@ -250,7 +294,7 @@
         <section id="records" class="card" aria-labelledby="records-head">
           <h2 id="records-head" class="section">What to Keep After Paying</h2>
           <ul>
-            <li>Confirmation number, date & time of payment</li>
+            <li>Confirmation number, date &amp; time of payment</li>
             <li>Screenshot of confirmation page and the receipt email (save PDF)</li>
             <li>Agent name and confirmation if payment was by phone</li>
             <li>Bank transaction reference (for ACH) or last 4 digits of card</li>
@@ -308,7 +352,8 @@
         {"@type":"Question","name":"How do I cancel AutoPay?","acceptedAnswer":{"@type":"Answer","text":"Log into your account > Billing > AutoPay settings and cancel. Call 1(888)933-1113 to confirm cancellation and get a reference number."}},
         {"@type":"Question","name":"What if I don’t receive a confirmation email?","acceptedAnswer":{"@type":"Answer","text":"Check spam/junk folders. If not found, use the confirmation number on the final page or call 1(888)933-1113 with the payment date/time and last 4 digits of the payment to confirm."}},
         {"@type":"Question","name":"Can I pay someone else’s policy?","acceptedAnswer":{"@type":"Answer","text":"Yes — if you have the policy number and required verification details. Use guest payment or call the billing line for assistance."}},
-        {"@type":"Question","name":"Is paying by phone safe?","acceptedAnswer":{"@type":"Answer","text":"Yes when you call the verified number on your bill or allstate.com. Never give card numbers to unverified callers or via unsecured messages."}}
+        {"@type":"Question","name":"Is paying by phone safe?","acceptedAnswer":{"@type":"Answer","text":"Yes when you call the verified number on your bill or allstate.com. Never give card numbers to unverified callers or via unsecured messages."}},
+        {"@type":"Question","name":"How do I get help for a failed payment?","acceptedAnswer":{"@type":"Answer","text":"Try another payment method, check card details, or call 1(888)933-1113 and request agent-assisted resolution and a confirmation number."}}
       ]},
       {"@type":"Article","headline":"Allstate Bill Pay — The Complete, Practical Guide","description":"Practical, human-first Allstate bill payment guide: online, guest, mobile, AutoPay, phone scripts, FAQ and security checks.","datePublished":"2026-07-31","dateModified":"2026-07-31","author":{"@type":"Organization","name":"UtilityBillHelp"}}
     ]
